@@ -2,6 +2,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.DotNet.Analyzers.Compatibility" Version="0.1.2-alpha" PrivateAssets="All" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\stylecop.json" Link="stylecop.json" />
   </ItemGroup>
 
 </Project>

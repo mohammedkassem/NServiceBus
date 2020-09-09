@@ -31,4 +31,8 @@
     <Compile Remove="../NServiceBus.AcceptanceTests/Core/CoreTestSuiteConstraints.cs" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>..\Particular.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
 </Project>

@@ -40,4 +40,8 @@
     <None Update="TestDlls/**/*.*" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>..\Particular.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
 </Project>

@@ -17,4 +17,8 @@
     <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>..\Particular.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
 </Project>

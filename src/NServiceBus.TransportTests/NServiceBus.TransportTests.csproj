@@ -37,4 +37,8 @@
   </ItemGroup>
   <!-- End Workaround -->
 
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>..\Particular.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
 </Project>

@@ -18,4 +18,8 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.7" PrivateAssets="All" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>..\Particular.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
 </Project>

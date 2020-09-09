@@ -28,4 +28,8 @@
     <Compile Remove="../NServiceBus.PersistenceTesting/PersistenceTestsConfiguration.cs" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>..\Particular.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
 </Project>
